@@ -1,0 +1,4 @@
+name: Stagelighter
+pygments: true
+exclude: ["vendor"]
+
