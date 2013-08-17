@@ -1,4 +1,5 @@
 name: Stagelighter
 pygments: true
 exclude: ["vendor"]
+permalink: /:title/
 
