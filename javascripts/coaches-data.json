@@ -210,7 +210,7 @@ var jsonCoaches = {
       "MonologueFeedback": "true",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Casting director for the NBC show SMASH. Other favorite projects include: (Broadway) ROCK OF AGES, Baz Luhrmann's production of Puccini's LA BOHEME..."
     },    {        
       "Name": "David Loud",
@@ -225,7 +225,7 @@ var jsonCoaches = {
       "MonologueFeedback": "false",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Music Director for the original Broadway productions of RAGTIME, THE SCOTTSBORO BOYS, SONDHEIM ON SONDHEIM, CURTAINS, A CLASS ACT..."
     },    {        
       "Name": "Rebecca Luker",
@@ -240,7 +240,7 @@ var jsonCoaches = {
       "MonologueFeedback": "false",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "One of today's leading performers, Rebecca has been nominated for a Tony Award three times (Winifred Banks in MARY POPPINS, Marian in THE MUSIC MAN and Magnolia in SHOWBOAT)."
     },    {        
       "Name": "Michael McElroy",
@@ -255,7 +255,7 @@ var jsonCoaches = {
       "MonologueFeedback": "true",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Grammy and Tony Award nominated performer. Head of Vocal Performance in the New Studio on Broadway, Tisch School of the Arts at NYU."
     },    {        
       "Name": "Heidi Miami Marshall",
@@ -300,7 +300,7 @@ var jsonCoaches = {
       "MonologueFeedback": "true",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Won the Tony and Drama Desk Awards for orchestrations of THE LIGHT IN THE PIAZZA, for which he was also music director."
     },    {        
       "Name": "Duncan Stewart",
@@ -315,7 +315,7 @@ var jsonCoaches = {
       "MonologueFeedback": "true",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Responsible for casting the Broadway productions of PIPPIN, CHICAGO THE MUSICAL, the National tour of WE WILL ROCK YOU, &amp; upcoming A.R.T. production of THE TEMPEST."
     },    {        
       "Name": "Lori Swift",
@@ -330,7 +330,7 @@ var jsonCoaches = {
       "MonologueFeedback": "true",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Agent and director of Kazarian, Spencer, Ruskin &amp; Associates' New York Theatrical office since it opened in 2002."
     },    {        
       "Name": "Benton Whitley",
@@ -360,7 +360,7 @@ var jsonCoaches = {
       "MonologueFeedback": "false",
       "SongFeedback": "true",
       "leveltype": "broadway",
-      "featuredtype": "true",
+      "featuredtype": "false",
       "ShortBio": "Ms. Wilcox is the choreographer for the Broadway show MOTOWN based on the life of Berry Gordy, Jr."
     },    {        
       "Name": "Coach Wilford",

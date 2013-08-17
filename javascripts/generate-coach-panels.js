@@ -46,7 +46,7 @@ var displayCoach = function(i,jsonObj){
     
 
     var bottomWrapper = $('<div/>');
-    var title = $('<h2/>',{text: jsonObj.Name});
+    var title = $('<h4/>',{text: jsonObj.Name});
 
     var experttype = $('<p/>',{class: 'experttype', text:getexperttypeName(jsonObj.experttype)});
     var company = $('<p/>',{class: 'company', text: (jsonObj.Company=='REQUIRED')?'':jsonObj.Company});
