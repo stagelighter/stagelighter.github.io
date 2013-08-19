@@ -48,8 +48,6 @@ var displayCoach = function(i,jsonObj){
     var bottomWrapper = $('<div/>');
     var title = $('<h4/>',{text: jsonObj.Name});
 
-    console.log('xxx '+jsonObj.experttype);
-    console.log('#####');
     var experttype = $('<p/>',{class: 'experttype', text:getexperttypeName(jsonObj.experttype)});
     var company = $('<p/>',{class: 'company', text: (jsonObj.Company=='REQUIRED')?'':jsonObj.Company});
 
@@ -123,10 +121,6 @@ $.each(landing_pages, function(i,item){
     $.each(jsonCoaches.data,function(j,coach){
 
       if($.inArray(item, coach.publiclisting) > -1){
-        console.log('coach.publiclisting '+coach.publiclisting);
-        console.log('item '+item);
-        console.log($.inArray(item, coach.publiclisting));
-        console.log('~~~~~~');
         landing_page_arr.push(coach);
       }
     });
