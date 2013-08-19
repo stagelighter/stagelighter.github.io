@@ -48,6 +48,8 @@ var displayCoach = function(i,jsonObj){
     var bottomWrapper = $('<div/>');
     var title = $('<h4/>',{text: jsonObj.Name});
 
+    console.log('xxx '+jsonObj.experttype);
+    console.log('#####');
     var experttype = $('<p/>',{class: 'experttype', text:getexperttypeName(jsonObj.experttype)});
     var company = $('<p/>',{class: 'company', text: (jsonObj.Company=='REQUIRED')?'':jsonObj.Company});
 
@@ -109,12 +111,39 @@ var generateSelectionArray = function(input,id){
 
 /* filter featured coaches */
 var onload_arr = [];
+
+var landing_pages = ['featured','agents-and-casting-directors','directors-and-composers','college-faculty','performers'];
+var landing_page_arr = [];
+
+
+$.each(landing_pages, function(i,item){
+
+  if(resultsContainer.hasClass(item)){
+
+    $.each(jsonCoaches.data,function(j,coach){
+
+      if($.inArray(item, coach.publiclisting) > -1){
+        console.log('coach.publiclisting '+coach.publiclisting);
+        console.log('item '+item);
+        console.log($.inArray(item, coach.publiclisting));
+        console.log('~~~~~~');
+        landing_page_arr.push(coach);
+      }
+    });
+
+  }
+
+});
+
+/*
 $.each(jsonCoaches.data,function(i,item){
   if(item.featuredtype=='true')
     onload_arr.push(item);  
 });
-
 $.each(onload_arr,displayCoach);
+*/
+
+$.each(landing_page_arr,displayCoach);
 resultsContainer.append(clearfix);
 
 
