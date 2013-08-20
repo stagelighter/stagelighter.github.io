@@ -3,11 +3,11 @@ $slred: #A71F30;
 $bg: #000000;
 $white: #ffffff;
 $greyonblack: #a8a49b;
-$lightgreybg: #e3e3e3;
+$lightgrey: #e3e3e3;
 
 
 body{
-	background-color:$lightgreybg;
+	background-color:$bg;
 }
 .gradient{
 	background:url('/images/interface/gradient.png') 50% 0% no-repeat;
@@ -56,7 +56,27 @@ body{
 	margin-bottom:emCalc(30px);
 }
 
+@media #{$small} { 
+
+	.section-container p.title{
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+	}
+
+	.section-container .active .content{
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		border-top-right-radius:10px;
+	}
+
+}
+
 
 .copyright{
 	text-align:center;
+
+	div{
+		color:$lightgrey;
+		padding:20px 0 50px 0;
+	}
 }

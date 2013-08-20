@@ -2508,7 +2508,7 @@ a.th { display: inline-block; }
 .f-dropdown.large { max-width: 800px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\000039}}
-body { background-color: #e3e3e3; }
+body { background-color: black; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000312}}
 .gradient { background: url("/images/interface/gradient.png") 50% 0% no-repeat; }
@@ -2532,5 +2532,11 @@ body { background-color: #e3e3e3; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000354}}
 .slider { margin-top: 1.25em; margin-bottom: 1.875em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000360}}
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000361}}
+  .section-container p.title { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000366}}
+  .section-container .active .content { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-right-radius: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000375}}
 .copyright { text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000378}}
+.copyright div { color: #e3e3e3; padding: 20px 0 50px 0; }
