@@ -1,0 +1,62 @@
+
+$slred: #A71F30;
+$bg: #000000;
+$white: #ffffff;
+$greyonblack: #a8a49b;
+$lightgreybg: #e3e3e3;
+
+
+body{
+	background-color:$lightgreybg;
+}
+.gradient{
+	background:url('/images/interface/gradient.png') 50% 0% no-repeat;
+}
+
+.homepage-wrapper{
+	background-color:$bg;
+}
+.homepage-header {
+	h1{
+		display:none;
+	}
+	.logo{
+		display:block;
+		margin:0 auto;
+		padding-top:15px;
+	}
+}
+.top-line{
+	background:$slred;
+	height:7px;
+}
+
+.tagline{
+	color:$greyonblack;
+	margin-top:0px;
+	font-size:emCalc(22);
+	text-align:center;
+	letter-spacing:1px;
+}
+@media only screen{ 
+	.button.radius.login{
+		float:right;
+		right:15px;
+		background-color:#a71f30;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-color:#7a1824;
+		border-top-width:0px;
+		box-shadow:inset 0px -1px rgba(255,255,255,0.5)
+	}
+}
+
+.slider{
+	margin-top:emCalc(20px);
+	margin-bottom:emCalc(30px);
+}
+
+
+.copyright{
+	text-align:center;
+}

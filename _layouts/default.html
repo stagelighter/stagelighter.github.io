@@ -13,13 +13,22 @@
 
   </head>
   <body>
-
-    <div class="row">
-      <div class="large-12 columns">
-        <h2>Stagelighter</h2>
-        <p>Personal Feedback and Advice from Broadway's Top Professionals</p>
-        <hr />
-      </div>
+    <div class="top-line"></div>
+    <div class="homepage-wrapper gradient">
+        <div class="row homepage-header">
+          <div class="large-12 columns ">
+            <a class="radius button login" href="/login.html">Sign In</a>
+            <h1>Stagelighter</h1>
+            <a href="/"><img class="logo" src="/images/interface/stagelighter-logo.png"></a>
+            
+            <h2 class="tagline">Personal Feedback and Advice from Broadway's Top Professionals</h2>
+          </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns slider">
+                {% include slider.html %}
+            </div>
+        </div>
     </div>
 
 
@@ -28,7 +37,7 @@
     
 
     <div class="row">
-      <div class="small-12 columns">
+      <div class="small-12 columns copyright">
         <div>Copyright &copy; 2013 Stagelighter</div>
       </div>
     </div>

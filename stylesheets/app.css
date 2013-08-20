@@ -2506,3 +2506,31 @@ a.th { display: inline-block; }
 .f-dropdown.medium { max-width: 500px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/\.rbenv\/versions\/1\.9\.3-p392\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.1\/scss\/foundation\/components\/_dropdown\.scss}line{font-family:\00003148}}
 .f-dropdown.large { max-width: 800px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\000039}}
+body { background-color: #e3e3e3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000312}}
+.gradient { background: url("/images/interface/gradient.png") 50% 0% no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000316}}
+.homepage-wrapper { background-color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000320}}
+.homepage-header h1 { display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000323}}
+.homepage-header .logo { display: block; margin: 0 auto; padding-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000329}}
+.top-line { background: #a71f30; height: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000334}}
+.tagline { color: #a8a49b; margin-top: 0px; font-size: 1.375em; text-align: center; letter-spacing: 1px; }
+
+@media only screen { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000342}}
+  .button.radius.login { float: right; right: 15px; background-color: #a71f30; border-top-left-radius: 0px; border-top-right-radius: 0px; border-color: #7a1824; border-top-width: 0px; box-shadow: inset 0px -1px rgba(255, 255, 255, 0.5); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000354}}
+.slider { margin-top: 1.25em; margin-bottom: 1.875em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000360}}
+.copyright { text-align: center; }
