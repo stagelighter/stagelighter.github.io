@@ -56,6 +56,12 @@ body{
 	margin-bottom:emCalc(30px);
 }
 
+.section-container .active .content{
+	ul{
+		margin-left:25px;
+	}
+}
+
 @media #{$small} { 
 
 	.section-container p.title{

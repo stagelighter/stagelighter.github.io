@@ -2532,11 +2532,14 @@ body { background-color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000354}}
 .slider { margin-top: 1.25em; margin-bottom: 1.875em; }
 
-@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000360}}
+.section-container .active .content ul { margin-left: 25px; }
+
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000367}}
   .section-container p.title { border-top-left-radius: 10px; border-top-right-radius: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000372}}
   .section-container .active .content { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-right-radius: 10px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000381}}
 .copyright { text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000384}}
 .copyright div { color: #e3e3e3; padding: 20px 0 50px 0; }
