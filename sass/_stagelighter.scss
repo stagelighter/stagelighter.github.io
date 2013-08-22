@@ -86,3 +86,47 @@ body{
 		padding:20px 0 50px 0;
 	}
 }
+
+.coach-summary{
+	background:$lightgrey;
+	min-height:570px;
+	border-radius:10px;
+	margin-bottom:20px;
+	padding-top:10px;
+	img{
+		display:block;
+		margin:0 auto;
+		border-radius:10px;
+
+	}
+	h4{
+		margin-bottom:0;
+	}
+
+	.experttype{
+		margin-bottom:0;
+	}
+	.company{
+		margin-bottom:0;
+	}
+}
+
+.subpage{
+	h1{
+		color:$white;
+		text-align:center;
+	}
+}
+
+
+.orbit-container{
+	background:transparent;
+}
+
+
+.header-subpage{
+	img{
+		display:block;
+		margin: 0 auto;
+	}
+}

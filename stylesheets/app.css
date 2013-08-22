@@ -2543,3 +2543,23 @@ body { background-color: black; }
 .copyright { text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000384}}
 .copyright div { color: #e3e3e3; padding: 20px 0 50px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000390}}
+.coach-summary { background: #e3e3e3; min-height: 570px; border-radius: 10px; margin-bottom: 20px; padding-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\0000396}}
+.coach-summary img { display: block; margin: 0 auto; border-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003102}}
+.coach-summary h4 { margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003106}}
+.coach-summary .experttype { margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003109}}
+.coach-summary .company { margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003115}}
+.subpage h1 { color: white; text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003122}}
+.orbit-container { background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/stagelighter-github\/sass\/_stagelighter\.scss}line{font-family:\00003128}}
+.header-subpage img { display: block; margin: 0 auto; }
