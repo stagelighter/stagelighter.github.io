@@ -1,5 +1,5 @@
-@import url(/resources/app/css/langdon/langdon.css);
-@import url(/resources/app/css/entypo/entypo.css);
+@import url(langdon.css);
+@import url(entypo.css);
 
 
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
