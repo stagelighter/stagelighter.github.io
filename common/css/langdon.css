@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'langdonregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/langdon-webfont.eot');
+  src: url('../fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/langdon-webfont.woff') format('woff'),
+  url('../fonts/langdon-webfont.ttf') format('truetype'),
+  url('../fonts/langdon-webfont.svg#langdonregular') format('svg');
+}
