@@ -2,9 +2,9 @@
   font-family: 'langdonregular';
   font-style: normal;
   font-weight: normal;
-  src: url('http://stagelighter.com/resources/app/css/langdon/langdon-webfont.eot');
-  src: url('http://stagelighter.com/resources/app/css/langdon/langdon-webfont.eot?#iefix') format('embedded-opentype'), 
-  url('http://stagelighter.com/resources/app/css/langdon/langdon-webfont.woff') format('woff'), 
-  url('http://stagelighter.com/resources/app/css/langdon/langdon-webfont.ttf') format('truetype'), 
-  url('http://stagelighter.com/resources/app/css/langdon/langdon-webfont.svg#langdonregular') format('svg');
+  src: url('../fonts/langdon-webfont.eot');
+  src: url('../fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/langdon-webfont.woff') format('woff'),
+  url('../fonts/langdon-webfont.ttf') format('truetype'),
+  url('../fonts/langdon-webfont.svg#langdonregular') format('svg');
 }
